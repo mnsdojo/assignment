@@ -1,0 +1,31 @@
+.app-container {
+  padding: 2rem;
+}
+
+.gallery-header {
+  margin-bottom: 1rem;
+}
+
+.selection-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.overlay-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.overlay-trigger {
+  cursor: pointer;
+  font-size: 0.875rem;
+  border: 1px solid #ccc;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.row-count-label {
+  font-weight: bold;
+}
