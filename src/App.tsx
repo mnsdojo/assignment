@@ -22,8 +22,7 @@ function App() {
     selectedItems,
     onSelectionChange,
     applyCustomSelection,
-    selectionCount,
-    manualMap,
+  
   } = useRowSelection(artWorks, page, rows);
 
   const [customSelectCount, setCustomSelectCount] = useState<number | null>(
@@ -78,8 +77,6 @@ function App() {
       <div className="gallery-header">
         <h3>Art Institute of Chicago Gallery</h3>
         <p>Currently on page: {page}</p>
-        <p>Selection rule: First {selectionCount} items selected</p>
-        <p>Manual overrides: {Object.keys(manualMap).length}</p>
       </div>
 
       <OverlayPanel ref={overlayRef} style={{ width: "300px" }}>
